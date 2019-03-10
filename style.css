@@ -43,6 +43,120 @@ li a:hover {
 
 /* NAVBAR END */
 
+/* HOME START */
+
+#Home {
+  background-color: #45A29E;
+  padding: 5px 5px 5px 5px;
+  margin-top: -5px;
+  text-align: center;
+  color: white;
+}
+
+/* HOME END */
+
+/* TEAM START */
+
+#Teams {
+  background-color: #9660c6;
+  color: white;
+  margin-top: -5px;
+  padding: 5px 5px 5px 5px;
+  text-align: center;
+}
+
+.teamPhoto {
+  width: 100%;
+  height: 100%;
+}
+
+.teamText {
+  font-size: 0.70em;
+}
+
+div.team {
+  height: 200px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 25%;
+  margin-left: 1em;
+}
+
+.holder {
+  margin: auto;
+}
+
+.teamDescription {
+  float: right;
+  height: 200px;
+  width: 65%;
+  border: 1px solid #ccc;
+  margin-bottom: 3em;
+  margin-right: 1em;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.clear {
+  clear: both;
+}
+
+/* TEAM END */
+
+/* FORM START */
+
+#Form {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+form {
+  margin: 0 auto;
+  width: 400px;
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+}
+
+label {
+  display: inline-block;
+  text-align: right;
+}
+
+input, textarea {
+  font: 1em sans-serif;
+  width: 300px;
+  float: right;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  border: 1px solid #999;
+}
+
+input:focus, textarea:focus {
+  border-color: #000;
+}
+
+textarea {
+  vertical-align: top;
+  height: 5em;
+  resize: vertical;
+}
+
+.button {
+  padding-left: 90px;
+}
+
+button {
+  margin-top: 1em;
+}
+
+.formTitle, h3 {
+  text-align: center;
+  margin: auto;
+}
+
+/* FORM END */
+
 /* MEDIA START */
 
 /*------------------------------------------
@@ -58,6 +172,35 @@ li a:hover {
 
 @media all and (min-width: 480px) and (max-width: 768px) { }
 
-@media all and (max-width: 480px) { }
+@media all and (max-width: 480px) {
+  div.team {
+    height: 300px;
+    border: 1px solid #ccc;
+    width: 85%;
+    margin-bottom: 1em;
+  }
+
+  .holder {
+    margin: auto;
+  }
+
+  .teamDescription {
+    height: 200px;
+    width: 85%;
+    border: 1px solid #ccc;
+  }
+
+  form {
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border: none;
+  }
+}
+
+  button {
+    margin-top: 1em;
+    border: 1px solid #ccc;
+  }
 
 /* MEDIA END */
