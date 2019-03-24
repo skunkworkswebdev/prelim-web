@@ -1,0 +1,12 @@
+#page{
+   max-width: 75%;
+}
+
+#intro{
+  text-align: center;
+}
+
+.carousel-inner > .item > img{
+  margin: 0 auto;
+
+}
