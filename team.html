@@ -23,7 +23,7 @@
           <li class="nav-item">
             <a class="nav-link" href="#">About</a>
         </ul>
-        <h1 class="mx-auto text-center d-none d-md-block">
+        <h1 class="mx-auto text-center d-none d-md-block" style="color: #cccccc;">
           Web Dev Team
         </h1>
         <ul class="navbar-nav">
@@ -36,23 +36,42 @@
         </div>
       </nav>
     <header>
-      <div id="teamCarousel" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner" role="listbox">
-          <div class="carousel-item active" style="background-image: url('https://source.unsplash.com/weekly?nature')">
+    <div id="itemCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#itemCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#itemCarousel" data-slide-to="1"></li>
+        <li data-target="#itemCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+      <div class="carousel-item active" style="background-image: url('https://source.unsplash.com/weekly?nature')">
+          <div class="carousel-caption d-none d-md-block">
+            <h2 class="display-4">Project</h2>
+            <p class="lead">This is a description for the first slide.</p>
           </div>
-          <div class="carousel-item" style="background-image: url('https://source.unsplash.com/weekly?nature')">
+        </div>
+        <div class="carousel-item" style="background-image: url('https://source.unsplash.com/weekly?nature')">
+          <div class="carousel-caption d-none d-md-block">
+            <h2 class="display-4">Project</h2>
+            <p class="lead">This is a description for the second slide.</p>
           </div>
-          <div class="carousel-item" style="background-image: url('https://source.unsplash.com/weekly?nature')">
+        </div>
+        <div class="carousel-item" style="background-image: url('https://source.unsplash.com/weekly?nature')">
+          <div class="carousel-caption d-none d-md-block">
+            <h2 class="display-4">Project</h2>
+            <p class="lead">This is a description for the third slide.</p>
           </div>
         </div>
       </div>
-    </header>
-    <script>
-  $(document).ready(function(){
-    // Carousel interval
-    $("#teamCarousel").carousel({interval: 500});
-  });
-  </script>
+      <a class="carousel-control-prev" href="#itemCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+      <a class="carousel-control-next" href="#itemCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+    </div>
+  </header>
   <div class="container">
     <div class="row">
       <div class="col-12 col-sm-7 py-3 py-md-5">
@@ -62,6 +81,97 @@
       </div>
       <div class="col-12 col-sm-5 py-3 py-md-5">
         <img class="img-fluid" alt="computer" src="images/computer.jpg">
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 mx-auto text-center">
+        <h1>Meet our team members!</h1>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 py-2">
+        <div class="flip-card mx-auto">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="images/avatar.jpeg" alt="Avatar" style="width:300px;height:300px;border-radius:10%;">
+            </div>
+            <div class="flip-card-back">
+              <h2>Team Member<h1>
+              <h5>Student at Brandeis University</h5>
+              <h7>Appreciates sleep</h7>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 py-3">
+        <div class="flip-card mx-auto">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="images/avatar.jpeg" alt="Avatar" style="width:300px;height:300px;border-radius:10%;">
+            </div>
+            <div class="flip-card-back">
+              <h2>Team Member<h1>
+              <h5>Student at Brandeis University</h5>
+              <h7>Appreciates sleep</h7>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 py-3">
+        <div class="flip-card mx-auto">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="images/avatar.jpeg" alt="Avatar" style="width:300px;height:300px;border-radius:10%;">
+            </div>
+            <div class="flip-card-back">
+              <h2>Team Member<h1>
+              <h5>Student at Brandeis University</h5>
+              <h7>Appreciates sleep</h7>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 py-3">
+        <div class="flip-card mx-auto">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="images/avatar.jpeg" alt="Avatar" style="width:300px;height:300px;border-radius:10%;">
+            </div>
+            <div class="flip-card-back">
+              <h2>Team Member<h1>
+              <h5>Student at Brandeis University</h5>
+              <h7>Appreciates sleep</h7>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 py-3">
+        <div class="flip-card mx-auto">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="images/avatar.jpeg" alt="Avatar" style="width:300px;height:300px;border-radius:10%;">
+            </div>
+            <div class="flip-card-back">
+              <h2>Team Member<h1>
+              <h5>Student at Brandeis University</h5>
+              <h7>Appreciates sleep</h7>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 py-3">
+        <div class="flip-card mx-auto">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="images/avatar.jpeg" alt="Avatar" style="width:300px;height:300px;border-radius:10%;">
+            </div>
+            <div class="flip-card-back">
+              <h2>Team Member<h1>
+              <h5>Student at Brandeis University</h5>
+              <h7>Appreciates sleep</h7>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
